@@ -1,1 +1,7 @@
-timeout: 1
+stages:
+- name: run
+  steps:
+  - runScriptConfig:
+      image: centos:latest
+      shellScript: sleep 70
+timeout: 60
