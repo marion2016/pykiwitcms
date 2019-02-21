@@ -1,4 +1,1 @@
-timeout: 60
-branch:
-  include:
-  - master
+timeout: 1
