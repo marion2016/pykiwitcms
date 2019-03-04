@@ -5,6 +5,4 @@ stages:
       image: centos:latest
       shellScript: sleep 70
 timeout: 1
-branch:
-  exclude:
-  - master
+branch: {}
